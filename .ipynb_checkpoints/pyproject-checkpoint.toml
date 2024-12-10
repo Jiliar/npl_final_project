@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "npl-final-project"
+version = "0.1.0"
+description = ""
+authors = ["Jiliar Silado"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+nltk = "^3.9.1"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+openpyxl = "^3.1.5"
+gensim = "^4.3.3"
+tensorflow = "^2.18.0"
+seaborn = "^0.13.2"
+keras-preprocessing = "^1.1.2"
+transformers = "^4.47.0"
+tf-keras = "^2.10.0"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
+pytorch-transformers = "^1.2.0"
+captum = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
